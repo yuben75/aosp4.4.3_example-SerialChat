@@ -48,8 +48,8 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.hardware.ConsumerIrManager;
-import android.hardware.ISerialManager;
-import android.hardware.SerialManager;
+import android.hardware.ISerialManager;		//dikey
+import android.hardware.SerialManager;		//dikey
 import android.hardware.SystemSensorManager;
 import android.hardware.camera2.CameraManager;
 import android.hardware.display.DisplayManager;
@@ -520,7 +520,7 @@ class ContextImpl extends Context {
                     IBinder b = ServiceManager.getService(USB_SERVICE);
                     return new UsbManager(ctx, IUsbManager.Stub.asInterface(b));
                 }});
-
+	//dikey
         registerService(SERIAL_SERVICE, new ServiceFetcher() {
                 public Object createService(ContextImpl ctx) {
                     IBinder b = ServiceManager.getService(SERIAL_SERVICE);

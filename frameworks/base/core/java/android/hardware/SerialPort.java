@@ -29,7 +29,7 @@ import java.io.OutputStream;
 import java.nio.ByteBuffer;
 
 /**
- * @hide
+ * dikey
  */
 public class SerialPort {
 

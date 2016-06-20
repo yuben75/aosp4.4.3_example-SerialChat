@@ -52,6 +52,7 @@ LOCAL_SRC_FILES += \
 ## across process boundaries.
 ##
 ## READ ME: ########################################################
+#dikey
 LOCAL_SRC_FILES += \
 	core/java/android/accessibilityservice/IAccessibilityServiceConnection.aidl \
 	core/java/android/accessibilityservice/IAccessibilityServiceClient.aidl \

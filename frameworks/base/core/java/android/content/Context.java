@@ -2383,7 +2383,7 @@ public abstract class Context {
      * @see #getSystemService
      * @see android.hardware.SerialManager
      *
-     * @hide
+     * //dikey
      */
     public static final String SERIAL_SERVICE = "serial";
 

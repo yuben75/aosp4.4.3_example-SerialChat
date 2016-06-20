@@ -18,7 +18,7 @@ package android.hardware;
 
 import android.os.ParcelFileDescriptor;
 
-/** @hide */
+/** dikey */
 interface ISerialManager
 {
     /* Returns a list of all available serial ports */

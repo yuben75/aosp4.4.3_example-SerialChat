@@ -22,7 +22,7 @@ import android.os.ParcelFileDescriptor;
 
 import java.io.File;
 import java.util.ArrayList;
-
+//dikey Stud
 public class SerialService extends ISerialManager.Stub {
 
     private final Context mContext;

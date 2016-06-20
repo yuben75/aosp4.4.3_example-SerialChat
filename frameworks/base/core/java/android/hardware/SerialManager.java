@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.util.HashMap;
 
 /**
- * @hide
+ * dikey
  */
 public class SerialManager {
     private static final String TAG = "SerialManager";
