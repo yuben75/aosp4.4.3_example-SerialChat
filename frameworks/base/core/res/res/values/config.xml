@@ -486,6 +486,11 @@
          for example, /dev/ttyUSB0
     -->
     <string-array translatable="false" name="config_serialPorts">
+	    <item>"/dev/imxtty0"</item>
+	    <item>"/dev/imxtty1"</item>
+	    <item>"/dev/imxtty2"</item>
+	    <item>"/dev/imxtty3"</item>
+	    <item>"/dev/imxtty4"</item>
     </string-array>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
